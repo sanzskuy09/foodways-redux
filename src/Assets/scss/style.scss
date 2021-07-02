@@ -38,6 +38,14 @@
   background-color: $primary-color;
 }
 
+// ===== Footer =====
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: $primary-color;
+  padding: 1rem;
+}
+
 // ===== Homepage =====
 .hero-container {
   background-color: $primary-color;
@@ -115,9 +123,11 @@
 // === near restauran
 .container {
   .near-restaurant {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 325px);
     justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 2rem;
 
     .name-restaurant {
       display: flex;
@@ -127,7 +137,6 @@
       height: auto;
       padding: 0.875rem;
       border-radius: 5px;
-      margin-bottom: 1.5rem;
       cursor: pointer;
 
       .img-restaurant {

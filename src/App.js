@@ -1,4 +1,5 @@
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 import Homepage from "./Pages/Homepage";
 
 import "./Assets/scss/style.scss";
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Navbar />
       <Homepage />
+      <Footer />
     </div>
   );
 }
