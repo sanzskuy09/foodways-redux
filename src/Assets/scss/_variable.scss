@@ -1,0 +1,35 @@
+// === COLOR ===
+$primary-color: #ffc700;
+$secondary-color: #433434;
+$secondary-color-hover: #433434e3;
+
+// === TEXT COLOR ===
+$title-color: #000;
+$price-color: #ff1515;
+
+.h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.title {
+  font-size: 1.125rem;
+  color: $title-color;
+  font-weight: 800;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: sans-serif;
+  font-size: 1.125rem;
+  color: $title-color;
+  font-weight: 400;
+  margin: 0;
+}
